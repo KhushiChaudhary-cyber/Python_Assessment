@@ -25,7 +25,7 @@ size = int(input("Enter number of elements in list: "))
 num_list = []
 
 for i in range(size):
-    value = int(input(f"Enter element {i+1}: "))
+    value = int(input("Enter element {i+1}: "))
     num_list.append(value)
 
 # Call function
